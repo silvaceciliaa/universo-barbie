@@ -6,6 +6,7 @@ h1, h3 {
     font-size: 3rem;
     color: var(--primary-color);
     margin-bottom: 2rem;
+    text-transform: uppercase;
 }
 
 p {
@@ -73,7 +74,7 @@ label {
 section {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 95px;
+    margin-bottom: 150px;
 } 
 
 section #profile-barbie{
@@ -93,3 +94,30 @@ section #profile-barbie{
 #section1 .section-texts {
     max-width: 50%;
 }
+
+#section-trailer .section-texts {
+    max-width: 50%;
+    text-align: right;
+}
+
+#section-trailer .section-texts h2 {
+    display: inline-block;
+}
+
+#section-trailer .video-frame {
+    background-color: var(--primary-color);
+}
+
+#section-trailer .video-frame iframe {
+    position: relative;
+    left: 24px;
+    bottom: 24px;
+    border: 2px solid;
+    border-image: linear-gradient(
+        var(--primary-color),
+        var(--primary-color-contrast)
+    );
+    border-image-slice: 10;
+}
+
+

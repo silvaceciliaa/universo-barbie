@@ -4,5 +4,6 @@
     margin: 0;
     box-sizing: border-box;
     background-color: var(--background-color);
+    transition: 1s;
 }
 
