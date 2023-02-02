@@ -9,7 +9,7 @@
     </head>
 
     <header>
-        <audio id="music">
+        <audio id="music" autoplay>
             <source src="./assets/audio/musica barbie da kelly key.mp3">
         </audio>
 
@@ -42,6 +42,7 @@
             </div>
             <div class="section-texts">
             <h1>Novidades</h1>
+            <h3>Barbie - 20 Julho 2023  </h3>
             <p role="text">No mundo mágico das Barbies, "Barbieland", uma das bonecas começa a perceber que não se encaixa como as outras.
                  Depois de ser expulsa, ela parte para uma aventura no "mundo real", onde descobre que a beleza está no interior de cada um.
             </p>
@@ -71,22 +72,23 @@
 
         <section id="section-form" class="container">
             <h1>Hot Pink Newsletter</h1>
+
             <div class="form-content">
                 <h3>Fique por dentro das novidades mais gliterosas e <span>cor-de-rosa</span> desse universo</h3>
-            </div>
-            <div class="form-container">
-                <form>
-                    <input type="text" name="name" id="nome_digitado">
-                    <label for="nome_digitado">Nome Completo</label>
 
-                    <input type="email" name="email" id="email_digitado">
+                <div class="form-container">
+                <form>
+                    <label for="nome_digitado">Nome Completo</label>
+                    <input type="text" name="name" id="nome_digitado">
+                    
                     <label for="email_digitado">Seu melhor email</label>
+                    <input type="email" name="email" id="email_digitado">
 
                     <button type="button" id="btnInscricao">Me inscrever</button>
                 </form>
             </div>
+            </div>
         </section>
-
     </main>
     <footer>
         <p>Projeto desenvolvido com os conhecimentos adquiridos na Formção CSS Web Developer</p>

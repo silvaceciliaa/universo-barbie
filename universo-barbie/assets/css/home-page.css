@@ -71,8 +71,22 @@ main {
    align-items: center;
 } 
 
+input {
+    border: 2px solid var(--primary-color-contrast);
+    background-color: var(--background-color);
+    color: #000;
+    padding: 8px;
+    margin-bottom: 24px;
+}
+
+input:focus-visible {
+  outline: none;
+  border-color: var(--highlight-color);
+}
+
 label {
     margin-bottom: 8px;
+    background-color: transparent;
   }
 
 section {
@@ -84,7 +98,7 @@ section {
 section #profile-barbie{
    border-radius: 0.8rem;
    border: 0.7rem solid var(--background-color);
-    outline: 0.5rem solid var(--primary-color);
+   outline: 0.5rem solid var(--primary-color);
 } 
 
 .container{
@@ -104,7 +118,7 @@ section #profile-barbie{
     text-align: right;
 }
 
-#section-trailer .section-texts h2 {
+#section-trailer .section-texts h1 {
     display: inline-block;
 }
 
@@ -133,7 +147,7 @@ section #profile-barbie{
     gap: 50px;
 }
 
-#section-movie-gallery .gallery-image{
+#section-movie-gallery .gallery-image {
     border-radius: 0.8rem;
    border: 0.7rem solid var(--background-color);
    outline: 0.5rem solid var(--primary-color);
@@ -155,24 +169,68 @@ section #profile-barbie{
     align-items: center;
     gap: 40px;
     text-align: center;
-}
+  }
 
-#section-form h1{
-width: 250px;
+#section-form h1 {
+    width: 250px;
 }
 
 #section-form .form-content {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 #section-form .form-content h3{
     color: var(--highlight-color);
+    flex-basis: 30%;
+    text-align: right;
+    margin: 0;
+    font-size: 2.2rem;
 }
 
 #section-form .form-content h3 span{
     color: var(--primary-color);
 }
 
+#section-form .form-container {
+  flex-basis: 50%;
+  position: relative;
+}
 
+#section-form .form-container form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 24px;
+    background-color: var(--primary-color);
+    color: var(--primary-color-contrast);
+    text-align: left;
+    border-radius: 0.5rem;
+}
 
+#section-form .form-container form button {
+    border: none;
+    background-color: var(--primary-color-contrast);
+    color: var(--highlight-color);
+    max-width: 300px;
+    align-self: center;
+}
+
+footer {
+    padding: 68px 0;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+footer p {
+    margin-bottom: 2rem;
+}
+
+footer img {
+    max-width: 50px;
+}
