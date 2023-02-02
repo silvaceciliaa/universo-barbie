@@ -66,16 +66,30 @@ main {
    align-items: center;
 } 
 
+label {
+    margin-bottom: 8px;
+  }
+
 section {
     display: flex;
     justify-content: space-between;
     margin-bottom: 95px;
 } 
 
-section #hello-barbie{
-   width: 550px;
+section #profile-barbie{
+   border-radius: 0.8rem;
+   border: 0.7rem solid var(--background-color);
+    outline: 0.5rem solid var(--primary-color);
 } 
 
 .container{
     max-width: 1300px;
- } 
+} 
+
+#section1 {
+    align-items: center;
+}
+
+#section1 .section-texts {
+    max-width: 50%;
+}
