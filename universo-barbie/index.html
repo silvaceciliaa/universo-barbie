@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/home-page.css">
+    </head>
+
+    <header>
+        <audio id="music">
+            <source src="./assets/audio/musica barbie da kelly key.mp3">
+        </audio>
+
+        <div class="header-container">
+            <img class="barbie-logo" src="./assets/images/logo/barbie-media-png-logo.png">
+            <p>Você pode ser tudo que quiser</p>
+            <button id="initial-button" onclick="location.href = '#section1';">Começar</button>
+        </div>
+
+    </header>
+    <main>
+        <section id="section1" class="container">
+        <div class="section-texts">
+            <h1>O Universo Barbie</h1>
+            <p role="text">
+                Barbara Millicent Roberts, Barbie, foi criada nos anos 50 e se tornou um ícone e inspiração para diversas crianças ao redor do mundo. 
+                Com mais de 200 profissões, a primeira boneca com corpo de mulher deu voz a diversas mulheres desde sua criação.
+            </p>
+        </div>
+        <img
+        src="./assets/images/scenes/movie-scene1.jpeg" alt="image-ola-barbie"/>
+        </section>
+        <section id="section-movie-gallery">
+            <div class="container section-text">
+                <h1>Filmes</h1>
+                <h3>Conheça a ordem</h3>
+                <ul class="gallery-container" role="gallery">
+                    <li class="gallery-image">
+                        <img src="./assets/images/movie-posters/barbie-and-the-three-musketeers.jpeg"/>
+                    </li>
+                    <li class="gallery-image">
+                        <img src="./assets/images/movie-posters/barbie-princess-charm-school.jpeg"/>
+                    </li>
+                    <li class="gallery-image">
+                        <img src="./assets/images/movie-posters/barbie-fashion-fairytale.jpeg"/>
+                    </li>
+                    <li class="gallery-image">
+                        <img src="./assets/images/movie-posters/barbie-in-a-mermaid-tale.jpeg"/>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section id="section-trailer" class="container">
+            <div class="video-frame" aria-hidden="true">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/8zIf0XvoL9Y" 
+                title="YouTube video player" frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+            </iframe>
+            </div>
+            <div class="section-text">
+            <h1>Novidades</h1>
+            <p role="text">No mundo mágico das Barbies, "Barbieland", uma das bonecas começa a perceber que não se encaixa como as outras. Depois de ser expulsa, ela parte para uma aventura no "mundo real", onde descobre que a beleza está no interior de cada um.
+            </p>
+        </div>
+        </section>
+
+        <section id="section-form" class="container">
+            <h1>Hot Pink Newsletter</h1>
+            <div class="form-content">
+                <h3>Fique por dentro das novidades mais gliterosas e cor-de-rosa desse universo</h3>
+            </div>
+            <div class="form-container">
+                <form>
+                    <input type="text" name="name" id="nome_digitado">
+                    <label for="nome_digitado">Nome Completo</label>
+
+                    <input type="email" name="email" id="email_digitado">
+                    <label for="email_digitado">Seu melhor email</label>
+
+                    <button type="button" id="btnInscricao">Me inscrever</button>
+                </form>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <p>Projeto desenvolvido com os conhecimentos adquiridos na Formção CSS Web Developer</p>
+        <img class="barbie-logo" src="./assets/images/logo/barbie-logo-648EACBA9A-seeklogo.com.png">
+    </footer>
+</html>

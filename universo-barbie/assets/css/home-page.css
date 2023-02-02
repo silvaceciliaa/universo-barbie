@@ -1,0 +1,52 @@
+@import url('reset.css');
+@import url('global.css');
+
+h1, h3 {
+    font-family: 'Poppins', sans-serif ;
+    font-size: 3rem;
+    color: var(--primary-color);
+    margin-bottom: 2rem;
+}
+
+p {
+    color: #000;
+}
+
+p, input, label {
+    font-family: 'Libre Baskerville', serif;
+}
+
+button {
+    padding: 16px 32px;
+    background-color: var(--primary-color);
+    border: none;
+    font-weight: 900; 
+    font-family: 'Poppins', sans-serif ;
+    color: var(--primary-color-contrast);
+    border-radius: 0.3rem;
+    cursor: pointer;
+}
+header {
+    min-height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+
+}
+
+.header-container {
+    max-width: 700px;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.header-container p {
+    margin: 30px 0 50px;
+    font-family: 'Poppins', sans-serif;
+    color: var(--primary-color);
+}
+
+.header-container button {
+    font-size: 1.5rem;
+}
